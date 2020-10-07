@@ -41,13 +41,10 @@ If you discover any security related issues, please email muthurambca@gmail.com 
 
 ## Credits
 
-- [Muthuram96](https://github.com/muthuram)
-- [All Contributors](../../contributors)
+- [Muthuram96](https://github.com/Dev-Muthuram)
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
+.
