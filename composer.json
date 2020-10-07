@@ -1,0 +1,54 @@
+{
+    "name": "muthuram/obs-validation",
+    "description": "This is the Alpha version of validation package.",
+    "keywords": [
+        "muthuram",
+        "obs-validation"
+    ],
+    "homepage": "https://github.com/muthuram/obs-validation",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Muthuram96",
+            "email": "muthurambca@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.18.42|^7.24.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Muthuram\\ObsValidation\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Muthuram\\ObsValidation\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Muthuram\\ObsValidation\\ObsValidationServiceProvider"
+            ],
+            "aliases": {
+                "ObsValidation": "Muthuram\\ObsValidation\\ObsValidationFacade"
+            }
+        }
+    }
+}
